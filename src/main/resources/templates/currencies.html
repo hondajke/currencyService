@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Currencies</title>
+</head>
+<body>
+<th:block th:each="currency : ${data}">
+    <a th:href="@{currency?key={key}(key=${currency.getKeyValue()})}" th:utext="${currency.getKeyValue()} + ' = ' + ${currency.getKeyValueExtended()}">..</a>
+    </br>
+</th:block>
+</body>
+</html>
