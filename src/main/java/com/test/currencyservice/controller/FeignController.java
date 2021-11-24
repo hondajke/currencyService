@@ -14,7 +14,6 @@ import org.springframework.web.bind.annotation.*;
 import java.util.*;
 
 @Controller
-@RequestMapping("/main")
 public class FeignController {
     DateClass dateClass = new DateClass();
     CurrenciesJsonParser jsonParser = new CurrenciesJsonParser();
