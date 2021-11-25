@@ -8,5 +8,9 @@ git clone https://github.com/hondajke/currencyService.git
 ```
 Через командную строку(cmd) переходим в папку репозитория и запускаем сервис через команду
 ```
-gradle buildapp
+gradle bootrun
+```
+Если ПО благопалучно запустилось, в любой удобный для вас браузер вбиваем
+```
+http://localhost:8081/index
 ```
