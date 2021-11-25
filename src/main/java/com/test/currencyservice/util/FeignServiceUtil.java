@@ -1,9 +1,14 @@
 package com.test.currencyservice.util;
 
+import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.cloud.openfeign.FeignClient;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.PropertySource;
 import org.springframework.web.bind.annotation.*;
 
-@FeignClient(value = "currencies", url = "https://openexchangerates.org/api")
+@PropertySource("classpath:service.properties")
+@FeignClient(value = "currencies", url = "${currency_api_url}")
 public interface FeignServiceUtil {
 
     @GetMapping(value = "/currencies.json")

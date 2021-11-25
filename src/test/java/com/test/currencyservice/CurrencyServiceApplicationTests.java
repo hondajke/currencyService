@@ -20,6 +20,7 @@ class CurrencyServiceApplicationTests {
     @Autowired
     private MockMvc mockMvc;
 
+    //Проверка наличия строки "BTC = Bitcoin" по get запросу на /index
     @Test
     public void contextLoads() throws Exception{
         this.mockMvc.perform(get("/index"))
