@@ -1,8 +1,7 @@
 # currencyService
 Простой сервис, который сравнивает нынешний курс какой-либо валюты со вчерашней
 # Установка
-Для установки данного сервиса нам потребуется [gradle](https://gradle.org)(Version 7.x).
-Клонируем репозиторий, в удобном для вас месте
+Для установки данного сервиса нам потребуется [gradle](https://gradle.org)(Version 7.x).    Клонируем репозиторий, в удобном для вас месте
 ```
 git clone https://github.com/hondajke/currencyService.git
 ```
@@ -15,6 +14,6 @@ gradle bootrun
 http://localhost:8081/index
 ```
 # API list
-Данный сервис работает со следующими API:
-REST API курсов валют - https://docs.openexchangerates.org/
+Данный сервис работает со следующими API:    
+REST API курсов валют - https://docs.openexchangerates.org/    
 REST API гифок - https://developers.giphy.com/docs/api#quick-start-guide
