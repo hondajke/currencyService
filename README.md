@@ -14,3 +14,7 @@ gradle bootrun
 ```
 http://localhost:8081/index
 ```
+# API list
+Данный сервис работает со следующими API:
+REST API курсов валют - https://docs.openexchangerates.org/
+REST API гифок - https://developers.giphy.com/docs/api#quick-start-guide
