@@ -16,7 +16,7 @@ http://localhost:8081/index
 ```
 # API list
 Данный сервис работает со следующими API:    
-REST API курсов валют - https://docs.openexchangerates.org/    
-REST API гифок - https://developers.giphy.com/docs/api#quick-start-guide
+Курсы валют - https://docs.openexchangerates.org/    
+Гифки - https://developers.giphy.com/docs/api#quick-start-guide
 # Docker repository
 https://hub.docker.com/repository/docker/hondajke/currency-service
